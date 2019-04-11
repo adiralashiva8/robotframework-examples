@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190411 21:58:59.608" generator="Robot 3.1.1 (Python 2.7.14 on win32)">
+<suite source="D:\ROBO_SCRIPTS\the-internet\robotframework-examples\AngularJS\angular.robot" id="s1" name="Angular">
+<test id="s1-t1" name="Validate XYZ Bank Login Page Loading">
+<kw name="Launch XYZ Bank Login Page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.way2automation.com/angularjs-protractor/banking/#/login</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20190411 21:59:03.298" level="INFO">Opening browser 'chrome' to base url 'http://www.way2automation.com/angularjs-protractor/banking/#/login'.</msg>
+<status status="PASS" endtime="20190411 21:59:12.281" starttime="20190411 21:59:03.298"></status>
+</kw>
+<kw name="Location Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current URL contains ``expected``.</doc>
+<arguments>
+<arg>login</arg>
+</arguments>
+<msg timestamp="20190411 21:59:12.293" level="INFO">Current location contains 'login'.</msg>
+<status status="PASS" endtime="20190411 21:59:12.293" starttime="20190411 21:59:12.285"></status>
+</kw>
+<kw name="Wait For Angular" library="AngularJSLibrary">
+<status status="PASS" endtime="20190411 21:59:12.301" starttime="20190411 21:59:12.293"></status>
+</kw>
+<status status="PASS" endtime="20190411 21:59:12.301" starttime="20190411 21:59:03.298"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath://strong[text()='XYZ Bank']</arg>
+</arguments>
+<status status="PASS" endtime="20190411 21:59:12.341" starttime="20190411 21:59:12.305"></status>
+</kw>
+<status status="PASS" endtime="20190411 21:59:12.345" critical="yes" starttime="20190411 21:59:03.298"></status>
+</test>
+<status status="PASS" endtime="20190411 21:59:12.351" starttime="20190411 21:58:59.608"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Angular" pass="1">Angular</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
