@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190413 23:24:26.949" generator="Robot 3.1.1 (Python 2.7.14 on win32)">
+<suite id="s1" name="Ab Testing &amp; File Upload">
+<suite source="D:\ROBO_SCRIPTS\the-internet\robotframework-examples\SAMPLE_FRAMEWORK\TESTS\ab_testing.robot" id="s1-s1" name="Ab Testing">
+<test id="s1-s1-t1" name="Validate AB Testing">
+<kw name="Launch Internet Home Page" library="reuse_keywords">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${APP_URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.214" starttime="20190413 23:24:27.214"></status>
+</kw>
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>tag:h1</arg>
+<arg>Welcome to the-internet</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.214" starttime="20190413 23:24:27.214"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.214" starttime="20190413 23:24:27.214"></status>
+</kw>
+<kw name="Internet Home Page Should Be Loaded" library="home_page">
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${home_page_header}</arg>
+<arg>Welcome to the-internet</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.230" starttime="20190413 23:24:27.230"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.230" starttime="20190413 23:24:27.230"></status>
+</kw>
+<kw name="Click AB Testing Link" library="home_page">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${ab_testing_link}</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.231" starttime="20190413 23:24:27.231"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.231" starttime="20190413 23:24:27.231"></status>
+</kw>
+<kw name="AB Testing Page Should Be Loaded" library="ab_test_page">
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${ab_page_header}</arg>
+<arg>A/B</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.231" starttime="20190413 23:24:27.231"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.231" starttime="20190413 23:24:27.231"></status>
+</kw>
+<doc>Test case to validate AB Testing page</doc>
+<tags>
+<tag>test-case</tag>
+</tags>
+<status status="PASS" endtime="20190413 23:24:27.235" critical="yes" starttime="20190413 23:24:27.214"></status>
+</test>
+<kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="NOT_RUN" endtime="20190413 23:24:27.236" starttime="20190413 23:24:27.236"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.236" starttime="20190413 23:24:26.998"></status>
+</suite>
+<suite source="D:\ROBO_SCRIPTS\the-internet\robotframework-examples\SAMPLE_FRAMEWORK\TESTS\file_upload.robot" id="s1-s2" name="File Upload">
+<test id="s1-s2-t1" name="Validate AB Testing">
+<kw name="Launch Internet Home Page" library="reuse_keywords">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${APP_URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.260" starttime="20190413 23:24:27.260"></status>
+</kw>
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>tag:h1</arg>
+<arg>Welcome to the-internet</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.260" starttime="20190413 23:24:27.260"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.260" starttime="20190413 23:24:27.260"></status>
+</kw>
+<kw name="Internet Home Page Should Be Loaded" library="home_page">
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${home_page_header}</arg>
+<arg>Welcome to the-internet</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.260" starttime="20190413 23:24:27.260"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.260" starttime="20190413 23:24:27.260"></status>
+</kw>
+<kw name="Click File Upload Link" library="home_page">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${file_upload_link}</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.264" starttime="20190413 23:24:27.264"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.264" starttime="20190413 23:24:27.260"></status>
+</kw>
+<kw name="File Upload Page Should Be Loaded" library="file_upload_page">
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${file_upload_page_header}</arg>
+<arg>File Uploader</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.264" starttime="20190413 23:24:27.264"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.264" starttime="20190413 23:24:27.264"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.264" starttime="20190413 23:24:27.264"></status>
+</kw>
+<kw name="Choose File To Upload" library="file_upload_page">
+<arguments>
+<arg>${UPLOAD_FILE}</arg>
+</arguments>
+<kw name="Choose File" library="SeleniumLibrary">
+<doc>Inputs the ``file_path`` into file input field ``locator``.</doc>
+<arguments>
+<arg>${file_upload_choose_file}</arg>
+<arg>${file}</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.268" starttime="20190413 23:24:27.268"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.268" starttime="20190413 23:24:27.264"></status>
+</kw>
+<kw name="Click Upload Button" library="file_upload_page">
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${file_upload_upload_button}</arg>
+</arguments>
+<status status="NOT_RUN" endtime="20190413 23:24:27.268" starttime="20190413 23:24:27.268"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.268" starttime="20190413 23:24:27.268"></status>
+</kw>
+<doc>Test case to validate File upload page</doc>
+<tags>
+<tag>test-case</tag>
+</tags>
+<status status="PASS" endtime="20190413 23:24:27.268" critical="yes" starttime="20190413 23:24:27.256"></status>
+</test>
+<kw type="teardown" name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="NOT_RUN" endtime="20190413 23:24:27.272" starttime="20190413 23:24:27.272"></status>
+</kw>
+<status status="PASS" endtime="20190413 23:24:27.276" starttime="20190413 23:24:27.240"></status>
+</suite>
+<status status="PASS" endtime="20190413 23:24:27.280" starttime="20190413 23:24:26.949"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="2">Critical Tests</stat>
+<stat fail="0" pass="2">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="2">test-case</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Ab Testing &amp; File Upload" pass="2">Ab Testing &amp; File Upload</stat>
+<stat fail="0" id="s1-s1" name="Ab Testing" pass="1">Ab Testing &amp; File Upload.Ab Testing</stat>
+<stat fail="0" id="s1-s2" name="File Upload" pass="1">Ab Testing &amp; File Upload.File Upload</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
