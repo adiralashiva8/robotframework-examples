@@ -15,5 +15,5 @@ Installation:
   > pip install robotframework-faker
 
 Execution: 
- - Single Test: Switch to specific folder in command prompt and execute following command
+ - Switch to specific folder in command prompt and execute following command
   > robot filename.robot
