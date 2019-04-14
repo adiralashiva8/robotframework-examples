@@ -15,7 +15,7 @@ Openpyxlib Usefull Links:
  - Library Repo - [link](https://github.com/vallikkv/robotframework-openpyxllib)
  - Keyword Documentation (download html file) - [link](https://github.com/vallikkv/robotframework-openpyxllib/blob/master/docs/OpenPyxlLibrary.html)
 
-Sample Openpyxlib scripts can be found under Excel folder (openpyxlib.robot).
+Sample Openpyxlib scripts can be found under [Excel folder](/Excel) (openpyxlib.robot).
 
 Installation:
 
