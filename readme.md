@@ -17,6 +17,7 @@ Available Examples Readme.md's :
   - [REST API Readme.md](/Z_README/rest_api.md)
   - [Faker Readme.md](/Z_README/faker_readme.md)
   - [Excel Readme.md](/Z_README/excel_readme.md)
+  - [Sikuli Readme.md](/Z_README/sikuli_readme.md)
 
 ---
 
