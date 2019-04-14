@@ -8,7 +8,7 @@ Usefull Links:
  - Keywords Documentation [link](http://rainmanwy.github.io/robotframework-SikuliLibrary/doc/SikuliLibrary.html)
  - Keyword Examples [link](https://github.com/rainmanwy/robotframework-SikuliLibrary/tree/master/demo)
 
-Sample SikuliLibrary scripts can be found under Sikuli folder.
+Sample SikuliLibrary scripts can be found under [Sikuli folder.](/Sikuli)
 
 Installation:
 

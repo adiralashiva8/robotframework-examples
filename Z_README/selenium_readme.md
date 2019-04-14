@@ -8,7 +8,7 @@ Usefull Links:
  - Keywords Documentation [link](http://robotframework.org/SeleniumLibrary/SeleniumLibrary.html)
  - Keyword Examples [link](https://github.com/robotframework/SeleniumLibrary/tree/master/atest/acceptance/keywords)
 
-Sample SeleniumLibrary scripts can be found under Selenium folder.
+Sample SeleniumLibrary scripts can be found under [Selenium folder.](/Selenium)
 
 Installation:
 

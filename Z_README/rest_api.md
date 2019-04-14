@@ -8,7 +8,7 @@ Usefull Links:
  - Keywords Documentation [link](http://bulkan.github.io/robotframework-requests/)
  - Keyword Examples [link](https://github.com/bulkan/robotframework-requests/blob/master/tests/testcase.txt)
 
-Sample REST API scripts can be found under RESTAPI folder.
+Sample REST API scripts can be found under [RESTAPI folder.](/RESTAPI)
 
 Installation:
 

@@ -29,7 +29,7 @@ ExcelLibrary Usefull Links:
  - Keywords Documentation [link](http://navinet.github.io/robotframework-excellibrary/ExcelLibrary-KeywordDocumentation.html)
  - Keyword Examples [link](https://github.com/NaviNet/robotframework-excellibrary/blob/master/Tests/acceptance/ExcelRobotTest.txt)
 
-Sample ExcelLibrary scripts can be found under Excel folder (excellibrary.robot).
+Sample ExcelLibrary scripts can be found under [Excel folder](/Excel) (excellibrary.robot).
 
 Installation:
 

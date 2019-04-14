@@ -8,7 +8,7 @@ Usefull Links:
  - Keywords Documentation [link](https://guykisel.github.io/robotframework-faker/)
  - Keyword Examples [link](https://github.com/laurentbristiel/robotframework-faker-example/blob/master/faker-example.robot)
 
-Sample FakerLibrary scripts can be found under Faker folder.
+Sample FakerLibrary scripts can be found under [Faker folder.](/Faker)
 
 Installation:
 
