@@ -12,8 +12,8 @@ Sample FakerLibrary scripts can be found under Faker folder.
 
 Installation:
 
-    > pip install robotframework-faker
+  > pip install robotframework-faker
 
 Execution: 
  - Single Test: Switch to specific folder in command prompt and execute following command
-   > robot filename.robot
+  > robot filename.robot

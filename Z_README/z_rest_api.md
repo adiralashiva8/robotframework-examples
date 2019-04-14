@@ -12,7 +12,7 @@ Sample REST API scripts can be found under RESTAPI folder.
 
 Installation:
 
-    > pip install robotframework-requests
+  > pip install robotframework-requests
 
 API's Used:
 
@@ -21,8 +21,8 @@ API's Used:
 
 Execution: 
 
- - Single Test: Switch to specific folder in command prompt and execute following command
-   > robot filename.robot
+ - Switch to specific folder in command prompt and execute following command
+  > robot filename.robot
 
-   > In current tests POST, PUT and DELETE methods are dependent tests, so execute full file at a time
+  > In current tests POST, PUT and DELETE methods are dependent tests, so execute full file at a time
      - `robot --outputdir results -T RESTAPI\* `

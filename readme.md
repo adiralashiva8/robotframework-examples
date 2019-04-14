@@ -1,32 +1,47 @@
 # Robotframework Example
 
-Aim of this project is to have all robotframework libraries examples like selenium, api, db etc., at one place. So beginner can refer this repo for learning
-
----
-
-Inspired From:
- - [tourdedave/elemental-selenium-tips](https://github.com/tourdedave/elemental-selenium-tips) 
+Aim of this project is to have collection of robotframework libraries examples like selenium, api, db etc., at one place. So beginner can refer this repo for learning
 
 ---
 
 Prerequisites:
+
  - Install specific libraries
 
 ---
 
+Available Examples Readme.md's :
+
+  - [Selenium Readme.md]()
+  - [AngularJS Readme.md]()
+  - [REST API Readme.md]()
+  - [Faker Readme.md]()
+  - [Excel Readme.md]()
+
+---
+
 Usage:
+
  - Clone or Download repo
- - open terminal and execute following command or execute bat file
+ - Execute following command
    > robot --outputdir results -T .\FOLDER\*
- - For dashboard view of results use [robotframework-metrics](https://github.com/adiralashiva8/robotframework-metrics)
 
 ---
 
 Contribution:
+
  - Add examples and create pull request
 
 ---
+
 Credits:
+
  - Robotframework
  - Community
  - Websites used for samples
+ 
+---
+
+Inspired From:
+
+ - [tourdedave/elemental-selenium-tips](https://github.com/tourdedave/elemental-selenium-tips) 
