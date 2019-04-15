@@ -17,4 +17,4 @@ Aim of this FOLDER is to provide overview of creating automation folder structur
 Run Command:
 
  - Assume user is in *ROBOTFRAMEWORK-EXAMPLES* folder and following is run command (modify as per your setup)
-    > robot --outputdir .\SAMPLE_FRAMEWORK\RESULT\ -T --dry .\SAMPLE_FRAMEWORK\TESTS\*
+    > robot --outputdir .\SAMPLE_FRAMEWORK\RESULT\ -T .\SAMPLE_FRAMEWORK\TESTS\*
