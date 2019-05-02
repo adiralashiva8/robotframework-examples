@@ -12,7 +12,7 @@ Sample SeleniumLibrary scripts can be found under [Selenium folder.](/Selenium)
 
 Installation:
 
-  > pip install robotframework-seleniumlibrary
+  > `pip install robotframework-seleniumlibrary`
 
 Selenium Examples Usage:
 
@@ -24,4 +24,4 @@ Note: Make sure you are using chromedriver.exe of respective version and it is i
 Execution: 
 
  - Switch to specific folder in command prompt and execute following command
-  > robot filename.robot
+  > `robot filename.robot`

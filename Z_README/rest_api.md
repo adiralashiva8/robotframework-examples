@@ -22,7 +22,7 @@ API's Used:
 Execution: 
 
  - Switch to specific folder in command prompt and execute following command
-  > robot filename.robot
+  > `robot filename.robot`
 
 In current tests POST, PUT and DELETE methods are dependent tests, so execute full file at a time
-  > robot --outputdir results -T RESTAPI\* 
+  > `robot --outputdir results -T RESTAPI\* `

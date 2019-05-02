@@ -11,7 +11,7 @@ Sample AngularJSLibrary script can be found under [AngularJS folder.](/AngularJS
 
 Installation:
 
-  > pip install robotframework-angularjs
+  > `pip install robotframework-angularjs`
 
 Points to Remember:
 
@@ -26,4 +26,4 @@ Points to Remember:
 Execution: 
 
  - Switch to specific folder in command prompt and execute following command
-  > robot filename.robot
+  > `robot filename.robot`

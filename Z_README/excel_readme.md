@@ -19,7 +19,7 @@ Sample Openpyxlib scripts can be found under [Excel folder](/Excel) (openpyxlib.
 
 Installation:
 
-  > pip install robotframework-openpyxllib
+  > `pip install robotframework-openpyxllib`
 
 ---
 
@@ -33,11 +33,11 @@ Sample ExcelLibrary scripts can be found under [Excel folder](/Excel) (excellibr
 
 Installation:
 
-  > pip install robotframework-excellibrary
+  > `pip install robotframework-excellibrary`
 
 ---
 
 Execution: 
 
  - Switch to specific folder in command prompt and execute following command
-  > robot filename.robot
+  > `robot filename.robot`

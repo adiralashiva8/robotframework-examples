@@ -13,7 +13,7 @@ Sample scripts can be found under [PDF folder.](/PDF)
 
 Installation:
 
-  > pip install pypdf2
+  > `pip install pypdf2`
 
 ---
 

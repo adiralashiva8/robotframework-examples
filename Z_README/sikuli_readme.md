@@ -12,11 +12,11 @@ Sample SikuliLibrary scripts can be found under [Sikuli folder.](/Sikuli)
 
 Installation:
 
-  > pip install robotframework-SikuliLibrary
+  > `pip install robotframework-SikuliLibrary`
 
 Note: While using sikuli screen need to be awake
 
 Execution: 
 
  - Switch to specific folder in command prompt and execute following command
-  > robot filename.robot
+  > `robot filename.robot`
