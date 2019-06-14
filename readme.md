@@ -15,6 +15,7 @@ Available Examples Readme.md's :
   - [AngularJS Readme.md](/Z_README/angularjs_readme.md)
   - [BDD Readme.md](/Z_README/bdd_readme.md)
   - [DataDriven Readme.md](/Z_README/data_driven_readme.md)
+  - [Desktop Readme.md](/Z_README/desktop_readme.md)
   - [Excel Readme.md](/Z_README/excel_readme.md)
   - [Faker Readme.md](/Z_README/faker_readme.md)
   - [Listener Readme.md](/Z_README/listener_readme.md)
