@@ -1,0 +1,12 @@
+<Settings>
+    <ServiceProvider Type="typeName">
+      <Setting Name="Setting1" Value="Value1" />
+      <Setting Name="Setting2" Value="Value2" />
+    </ServiceProvider>
+ 
+   <Factory Type="typeName">
+     <Setting Name="Setting1" Value="Value1" />
+     <Setting Name="Setting2" Value="Value2" />
+     <Setting Name="Setting3" Value="Value3" />
+   </Factory>
+ </Settings>
